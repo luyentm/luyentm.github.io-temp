@@ -29,259 +29,237 @@
     <script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </head>
-    <body>
-        <!-- Container -->
-        <div id="container">
-        
-            <!-- Header -->
-            <div class="header">
-                <div id="logo">
-                    <h2><a href="#welcome">Tran Minh Luyen</a></h2>
-                    <h4>Inventor and Businessman</h4>
-                </div>
+<body>
+    <!-- Container -->
+    <div id="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div id="logo">
+                <h2><a href="#welcome">Tran Minh Luyen</a></h2>
+                <h4>Free man</h4>
             </div>
-            <!-- /Header -->
+        </div>
+        <!-- /Header -->
 
-            <!-- Content -->
-            <div id="content">
+        <!-- Content -->
+        <div id="content">
 
-                <!-- Navigation -->
-                <div class="navigation">
-                    <ul class="tabs">
-                        <li><a href="#welcome" class="tab-welcome">Welcome</a></li>
-                        <li><a href="#about" class="tab-about">About</a></li>
-                        <li><a href="#portfolio" class="tab-portfolio">Portfolio</a></li>
-                        <li><a href="#contact" class="tab-contact">Contact</a></li>
-                    </ul>
+            <!-- Navigation -->
+            <div class="navigation">
+                <ul class="tabs">
+                    <li><a href="#welcome" class="tab-welcome">Welcome</a></li>
+                    <li><a href="#about" class="tab-about">About</a></li>
+                    <li><a href="#portfolio" class="tab-portfolio">Portfolio</a></li>
+                    <li><a href="#contact" class="tab-contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /Navigation --> 
+
+            <!-- Welcome Section -->
+            <div id="welcome"> 
+                <div class="slider-wrapper">
+                    <div class="flexslider">
+                        <div class="ribbon"></div>
+                        <ul class="slides">
+                            <li>
+                                <img src="images/slider_01.jpg" alt="" />
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/slider_02.jpg" alt="" /></a>
+                            </li>
+                            <li>
+                                <img src="images/slider_03.jpg"  alt="" />
+                                <div class="flex-caption">
+                                    <h4>NOTE</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- /Navigation --> 
+            </div>        
+            <!-- /Welcome Section --> 
 
-                <!-- Welcome Section -->
-                <div id="welcome"> 
-                    <div class="slider-wrapper">
-                        <div class="flexslider">
-                            <div class="ribbon"></div>
-                            <ul class="slides">
-                                <li>
-                                    <img src="images/slider_01.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <a href="#"><img src="images/slider_02.jpg" alt="" /></a>
-                                </li>
-                                <li>
-                                    <img src="images/slider_03.jpg"  alt="" />
-                                    <div class="flex-caption">
-                                        <h4>Enhancing the moment</h4>
-                                        Etiam vitae nisi diam, in rutrum dui. In facilisis, erat sed laoreet aliquet, mauris urna placerat.
-                                    </div>
-                                </li>
-                            </ul>
+            <!-- About Section -->
+            <div id="about">
+
+                <!-- About Header -->
+                <div class="about-header">
+                    <h3>About me</h3>
+                    <div class="separator"></div>
+                </div>
+                <!-- /About Header -->
+
+                <!-- Resume -->
+                <div class="resume-wrapper">
+                    <div class="resume">
+                        <div class="photo">
+                            <img src="images/photo.jpg" alt="" />
                         </div>
+                        <ul class="personal-info">
+                            <li><label>Name</label><span>Tran Minh Luyen</span></li>
+                            <li><label>Date of birth</label><span>March 29, 1993</span></li>
+                            <li><label>Address</label><span>Xuan Thuy district, Cau Giay, Ha noi</span></li>
+                            <li><label>Email</label><span>tranminhluyen.1993@mail.com</span></li>
+                            <li><label>Phone</label><span>null</span></li>
+                            <li><p>Exciting to development application.</p></li>
+                        </ul>
                     </div>
-                </div>        
-                <!-- /Welcome Section --> 
-               
-                <!-- About Section -->
-                <div id="about">
+                    <div class="separator"></div>
+                </div>
+                <!-- /Resume -->
 
-                    <!-- About Header -->
-                    <div class="about-header">
-                        <h3>About me</h3>
-                        <div class="separator"></div>
-                    </div>
-                    <!-- /About Header -->
-
-                    <!-- Resume -->
-                    <div class="resume-wrapper">
-                        <div class="resume">
-                            <div class="photo">
-                                <img src="images/photo.jpg" alt="" />
+                <!-- Experience -->
+                <div class="experience">  
+                    <h3>Experience</h3>   
+                    <ul>
+                        <li>
+                            <div>
+                                <h4>Android, Libgdx</h4>
                             </div>
-                            <ul class="personal-info">
-                                <li><label>Name</label><span>Thomas Edison</span></li>
-                                <li><label>Date of birth</label><span>February 11, 1847</span></li>
-                                <li><label>Address</label><span>98 East Street, New York, NY 12345</span></li>
-                                <li><label>Email</label><span>thomasedison@mail.com</span></li>
-                                <li><label>Phone</label><span>+2 647 124-56-78</span></li>
-                                <li><p>Sed nunc tortor, sagittis quis viverra id, molestie vitae nibh. Donec vitae lacus sed risus accumsan consectetur ut a ligula. Etiam vitae nisi diam, in rutrum dui.</p></li>
-                            </ul>
-                        </div>
-                        <div class="separator"></div>
-                    </div>
-                    <!-- /Resume -->
-
-                    <!-- Experience -->
-                    <div class="experience">  
-                        <h3>Experience</h3>   
-                        <ul>
-                            <li>
-                                <div>
-                                    <h4>Inventor – Edison Development, 2005-2012</h4>
-                                    <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h4>Engineer – Edison Light Company, 2008-1995</h4>
-                                    <p>Braid, yop quiel geg ba solaly rasponsubla rof trenzur sala ent dusgrubuguon. Offoctivo immoriatoly, hawrgasi pwicos asi sirucor. Thas sirutciun applios tyu thuso itoms. Eget habitasse elementum est, ipsum purus pede porttitor class, ut adipiscing, aliquet sed auctor, imperdiet arcu per diam dapibus libero duis.</p>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <h3>Education</h3>   
-                         <ul>
-                            <li>            
-                                <div>
-                                    <h4>University of State, New York, NY — Doctor, 1975</h4>
-                                    <p>Quarta seacula per humanitatis formas litterarum anteposauerit claram parum putamus. Etiam molestie mauris ligula eget laoreet, vehicula eleifend.</p>
-                                </div>
-                            </li>
-                        </ul>           
-                    </div>
-                    <!-- /Experience -->
-
-                    <!-- Skills -->
-                    <div class="skills">
-                        <h3>Skills</h3> 
-                        <ul>
-                            <li>
-                                <h4>Webdesign</h4>
-                                <span class="level-5"></span>
-                            </li>
-                            <li>
-                                <h4>Animation</h4>
-                                <span class="level-4"></span>
-                            </li>
-                            <li>
-                                <h4>Artwork</h4>
-                                <span class="level-5"></span>
-                            </li>
-                            <li>
-                                <h4>Programming</h4>
-                                <span class="level-4"></span>
-                            </li>
-                            <li>
-                                <h4>Print Design</h4>
-                                <span class="level-2"></span>
-                            </li>
-                            <li>
-                                <h4>Motion</h4>
-                                <span class="level-5"></span>
-                            </li> 
-                        </ul>
-                     </div>
-                     <!-- Skills -->
-
-                </div>
-                <!-- /About Section --> 
-                                        
-                <!-- Portfolio Section -->
-                <div id="portfolio">
-
-                    <!-- Filter -->
-                     <ul id="portfolio-filter">
-                        <li><a href="#" class="current" data-filter="*">All</a></li>
-                        <li><a href="#" data-filter=".animation">Animation</a></li>
-                        <li><a href="#" data-filter=".photography">Photoghraphy</a></li>
-                        <li><a href="#" data-filter=".webdesign">Web Design</a></li>
-                        <li><a href="#" data-filter=".printdesign">Print Design</a></li>
-                    </ul>
-                    <!-- /Filter -->
-
-                    <!-- Portfolio Items -->
-                    <ul id="portfolio-feed">
-                        <li class="photography">
-                            <a href="images/portfolio_01_b.jpg" title="<h4>Enhancing the moment</h4><p>Praesent nisl lorem, molestie ac euismod in, vehicula congue orci. Pellentesque gravida dapibus orcieu fringilla. Nam consectetur eros risus, ut ullamcorper quam. Sed sit amet sapien lacus.</p>" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_01.jpg" alt="" />
-                                <h2>Enhancing the moment</h2>
-                                <span class="tags">Photography</span>
-                            </a>
-                        </li>
-                        <li class="webdesign">
-                            <a href="images/portfolio_02_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_02.jpg" alt="" />
-                                <h2>Connecting pictures</h2>
-                                <span class="tags">Web Design</span> 
-                            </a>
-                        </li>                        
-                        <li class="webdesign animation">
-                            <a href="images/portfolio_03_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_03.jpg" alt="" />                            
-                                <h2>Real-world workflow</h2>
-                                <span class="tags">Web Design / Animation</span> 
-                            </a>
-                        </li>
-                        <li class="photography">
-                            <a href="images/portfolio_04_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_04.jpg" alt="" />
-                                <h2>Completing the story</h2>
-                                <span class="tags">Photography</span> 
-                            </a>
-                        </li>
-                        <li class="printdesign photography">
-                            <a href="images/portfolio_05_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_05.jpg" alt="" />
-                                <h2>Through the roads</h2>
-                                <span class="tags">Print Design / Photography</span> 
-                            </a>
-                        </li>
-                        <li class="photography">
-                            <a href="images/portfolio_06_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_06.jpg" alt="" />
-                                <h2>The past</h2>
-                                <span class="tags">Photography</span> 
-                            </a>
-                        </li>
-                        <li class="animation">
-                            <a href="images/portfolio_07_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_07.jpg" alt="" />
-                                <h2>Time and space</h2>
-                                <span class="tags">Animation</span> 
-                            </a>
-                        </li>
-                        <li class="webdesign">
-                            <a href="images/portfolio_08_b.jpg" data-fancybox-group="portfolio" class="folio">
-                                <img src="images/portfolio_08.jpg" alt="" />
-                                <h2>Memories of a child</h2>
-                                <span class="tags">Web Design</span> 
-                            </a>
                         </li>
                     </ul>
-                    <!-- /Portfolio Items -->
 
+                    <h3>Education</h3>   
+                    <ul>
+                        <li>
+                            <div>
+                                <h4>Student, 2011-2015</h4>
+                                <p>Student at University of Engineering and Technology Ha Noi, Vietnam</p>
+                            </div>            
+                        </li>
+                    </ul>           
                 </div>
-                <!-- /Portfolio Section -->   
-                
-                <!-- Contact Section -->
-                <div id="contact">
+                <!-- /Experience -->
 
-                    <!-- Google Map -->
-                    <div class="map-wrapper">
-                        <div id="map"></div>
-                    </div>
-                    <!-- /Google Map -->
+                <!-- Skills -->
+                <div class="skills">
+                    <h3>Skills</h3> 
+                    <ul>
+                        <li>
+                            <h4>Artwork</h4>
+                            <span class="level-1"></span>
+                        </li>
+                        <li>
+                            <h4>Programming</h4>
+                            <span class="level-1"></span>
+                        </li>
+                        <li>
+                            <h4>Print Design</h4>
+                            <span class="level-1"></span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Skills -->
 
-                    <!-- Contact Header -->
-                    <div class="contact-header">
-                        <h3>Contact info</h3>
-                        <div class="separator"></div>
-                        <p>Nam ultricies dolor eu velit varius scelerisque. Vestibulum in lacus in felis pretium feugiat non sed elit. Duis pretium, urna sed pellentesque tincidunt, neque massa imperdiet nisi.</p>
-                    </div>
-                    <!-- /Contact Header -->
+            </div>
+            <!-- /About Section --> 
 
-                    <!-- Contact Info -->
-                    <div class="contact-info">
-                        <ul>
-                            <li>Address: 98 East Street, New York, NY 12345</li>
-                            <li>Phone: +2 647 124-56-78</li>
-                            <li>Fax: +2 647 124-56-78</li>
-                            <li>Web: www.thomasedison.com</li>
-                            <li>Email: thomasedison@mail.com</li>
-                        </ul>
-                    </div>
-                    <!-- /Contact Info -->
+            <!-- Portfolio Section -->
+            <div id="portfolio">
 
-                    <!-- Contact Form -->
+                <!-- Filter -->
+                <ul id="portfolio-filter">
+                    <li><a href="#" class="current" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".animation">Animation</a></li>
+                    <li><a href="#" data-filter=".photography">Photoghraphy</a></li>
+                    <li><a href="#" data-filter=".webdesign">Web Design</a></li>
+                    <li><a href="#" data-filter=".printdesign">Print Design</a></li>
+                </ul>
+                <!-- /Filter -->
+
+                <!-- Portfolio Items -->
+                <ul id="portfolio-feed">
+                    <li class="photography">
+                        <a href="images/portfolio_01_b.jpg" title="<h4>Enhancing the moment</h4><p>Praesent nisl lorem, molestie ac euismod in, vehicula congue orci. Pellentesque gravida dapibus orcieu fringilla. Nam consectetur eros risus, ut ullamcorper quam. Sed sit amet sapien lacus.</p>" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_01.jpg" alt="" />
+                            <h2>Enhancing the moment</h2>
+                            <span class="tags">Photography</span>
+                        </a>
+                    </li>
+                    <li class="webdesign">
+                        <a href="images/portfolio_02_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_02.jpg" alt="" />
+                            <h2>Connecting pictures</h2>
+                            <span class="tags">Web Design</span> 
+                        </a>
+                    </li>                        
+                    <li class="webdesign animation">
+                        <a href="images/portfolio_03_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_03.jpg" alt="" />                            
+                            <h2>Real-world workflow</h2>
+                            <span class="tags">Web Design / Animation</span> 
+                        </a>
+                    </li>
+                    <li class="photography">
+                        <a href="images/portfolio_04_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_04.jpg" alt="" />
+                            <h2>Completing the story</h2>
+                            <span class="tags">Photography</span> 
+                        </a>
+                    </li>
+                    <li class="printdesign photography">
+                        <a href="images/portfolio_05_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_05.jpg" alt="" />
+                            <h2>Through the roads</h2>
+                            <span class="tags">Print Design / Photography</span> 
+                        </a>
+                    </li>
+                    <li class="photography">
+                        <a href="images/portfolio_06_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_06.jpg" alt="" />
+                            <h2>The past</h2>
+                            <span class="tags">Photography</span> 
+                        </a>
+                    </li>
+                    <li class="animation">
+                        <a href="images/portfolio_07_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_07.jpg" alt="" />
+                            <h2>Time and space</h2>
+                            <span class="tags">Animation</span> 
+                        </a>
+                    </li>
+                    <li class="webdesign">
+                        <a href="images/portfolio_08_b.jpg" data-fancybox-group="portfolio" class="folio">
+                            <img src="images/portfolio_08.jpg" alt="" />
+                            <h2>Memories of a child</h2>
+                            <span class="tags">Web Design</span> 
+                        </a>
+                    </li>
+                </ul>
+                <!-- /Portfolio Items -->
+
+            </div>
+            <!-- /Portfolio Section -->   
+
+            <!-- Contact Section -->
+            <div id="contact">
+
+                <!-- Google Map -->
+                <div class="map-wrapper">
+                    <div id="map"></div>
+                </div>
+                <!-- /Google Map -->
+
+                <!-- Contact Header -->
+                <div class="contact-header">
+                    <h3>Contact info</h3>
+                    <div class="separator"></div>
+                    <p>null</p>
+                </div>
+                <!-- /Contact Header -->
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <ul>
+                    <li>Address: Xuan Thuy, Cau Giay, Ha Noi</li>
+                        <li>Phone: --- --- ----</li>
+                        <li>Email: tranminhluyen.1993@mail.com</li>
+                    </ul>
+                </div>
+                <!-- /Contact Info -->
+
+                <!-- Contact Form -->
                     <!--<form action="#" id="contactform">
                         <ul>
                             <li>
@@ -314,8 +292,7 @@
 
                 <!-- Social Icons -->
                 <ul class="social-links">
-                    <li><a href="#" class="social-twitter"></a></li>
-                    <li><a href="#" class="social-facebook"></a></li>
+                    <li><a href="http://facebook.com/LuyenYeuQuynh" class="social-facebook"></a></li>
                     <li><a href="#" class="social-linkedin"></a></li>
                     <li><a href="#" class="social-google"></a></li>
                     <li><a href="#" class="social-dribbble"></a></li>
